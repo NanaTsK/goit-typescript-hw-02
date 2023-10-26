@@ -5,19 +5,20 @@
 */
 
 type AllType = {
-  name: string;
-  position: number;
-  color: string;
-  weight: number
-}
+	name: string;
+	position: number;
+	color: string;
+	weight: number;
+};
 
-function compare (top, bottom): AllType {
-  return {
-    name: top.name,
-    color: top.color,
-    position: bottom.position,
-    weight: bottom.weight,
-  }
+// function compare (top, bottom): AllType {
+function compare(top: AllType, bottom: AllType): AllType {
+	return {
+		name: top.name,
+		color: top.color,
+		position: bottom.position,
+		weight: bottom.weight,
+	};
 }
 
 export {};
