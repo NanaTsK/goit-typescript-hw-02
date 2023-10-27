@@ -8,6 +8,8 @@ person = ["Max", 21];
 
 export {};
 
+//* Alternative:
+
 // type Person = [string, number];
 // let person: Person = ["Max", 21];
 // export {};
